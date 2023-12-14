@@ -1,0 +1,66 @@
+.jumbotron {
+    background: url('https://introgenesis.com/wp-content/uploads/2023/12/00221-1621525053.png') center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .continue-button {
+    margin-top: 20px;
+  }
+  
+  .full-screen-card {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .button {
+    margin-top: 10px;
+  }
+  
+  /* Estilo para los campos de entrada centrados y de ancho moderado */
+  .form-control {
+    width: 250px; /* Puedes ajustar el ancho según tus necesidades */
+    margin: 0 auto; /* Centra los campos horizontalmente */
+    margin-bottom: 10px;
+  }
+  
+  /* Coloca "Cantidad" justo debajo de "Contraseña" */
+  #amount {
+    margin-top: 10px;
+  }
+  
+  #balance {
+    display: none;
+  }
+  
+  /* Coloca "Iniciar Sesión" en otra línea */
+  .button.mt-4 {
+    display: block;
+  }
+  .password-reminder {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  h2 {
+    text-align: center;
+background-color: aqua;
+opacity: .5;
+border-radius: 60px;
+    
+  }
